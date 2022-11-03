@@ -36,5 +36,5 @@ handlers:
   static_files: images/\1
   upload: images/(.*\.(gif|png|jpg))
   
-- url: /.*
-  script: dashboard.blade.php
+- url: /resources/views/auth/.*
+  script: login.blade.php
