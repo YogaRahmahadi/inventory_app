@@ -20,7 +20,7 @@ env_variables:
     # Put production environment variables here.
     APP_DEBUG: true
     APP_ENV: local
-    APP_KEY: base64:llDNaEN0KS7e/6TQwSJ3FFpgGc+31v3/Aj6mTzRLRgU=
+    APP_KEY: base64:VJglvPhXzmGicxPW47njysykERZkV2NbUVY9p1OOW1I=
     APP_NAME: "Laravel"
 
     LOG_LEVEL: debug

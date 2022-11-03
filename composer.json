@@ -42,6 +42,10 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
+        ],
+        "post-install-cmd": [
+            "chmod -R 755 bootstrap\/cache",
+            "php artisan cache:clear"
         ]
     },
     "extra": {
@@ -56,4 +60,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true
+
 }
